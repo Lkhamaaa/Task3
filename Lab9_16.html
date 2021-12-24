@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            var first, second, third, sorog=0, eyreg=0, teg=0;
+            document.write("<h1>Lab9_16</h1>")
+            first = parseInt(window.prompt("Эхний тоог оруулна уу: "));
+            second = parseInt(window.prompt("Дараагийн тоог оруулна уу: "));
+            third = parseInt(window.prompt("Сүүлийн тоог оруулна уу: "));
+            if(first==0)
+                teg++;
+            else if(first>0)
+                eyreg++;
+            else sorog++;
+            if(second==0)
+                teg++;
+            else if(second>0)
+                eyreg++;
+            else sorog++;
+            if(third==0)
+                teg++;
+            else if(third>0)
+                eyreg++;
+            else sorog++;
+            document.write("Таны оруулсан тооны " + eyreg + " нь эерэг, " + sorog + " нь сөрөг, "+ teg + " нь тэг байна.");
+            </script>
+    </head><body></body>
+</html>

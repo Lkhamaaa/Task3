@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+table{
+    width: 100%;
+}
+#topmenu{
+    list-style: none;
+}
+#topmenu>li{
+    float: right;
+    background-color: rgb(60, 137, 143);
+    width: 200px;
+}
+#topmenu>li:hover{
+    background-color: rgb(27, 114, 146);
+    border-bottom: 1px dotted #fff;
+}
+#topmenu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+}
+#author{
+    font-size: 40px;
+    color: deepskyblue;
+    padding-left: 40px;
+    font-family: 'Sriracha', cursive;
+}
+
+
+#header {
+    background-image: url(back-mid.jpg);
+    background-size: 100% auto;
+    color: white;
+    text-align: center;
+}
+.bigtext {
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.slogan {
+    font-family: 'Cinzel', serif;
+    font-size: 0.5em;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: hsl(221, 67%, 49%);
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 100px;
+}
+.button:hover {
+    background-color: white;
+    color: rgb(0, 174, 255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: scale(1.2,1.2);
+}
+.header{
+    height: 500px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin: 40px 50px 40px 0px;
+}
+div img{
+    width: 250px;
+    height: 250px;
+    margin: 40px 50px 40px 0px;
+}
+.littlebutton {
+    background-color: rgb(27, 114, 146);;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: -40px;
+}
+.littlebutton:hover {
+    transform: scale(1.2,1.2);
+}
+#last{
+    background-color: rgb(165, 227, 238);
+    height: 100px;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+.head1{
+    text-align: center;
+}
+

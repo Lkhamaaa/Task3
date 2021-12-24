@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Akronim&family=Architects+Daughter&family=Ephesis&family=Open+Sans+Condensed:wght@300&family=Pacifico&display=swap');
+.bigtext {
+    background-color: hsl(41, 100%, 50%);
+    font-size: 4em;
+    font-family: 'Pacifico', sans-serif;
+    color: white;
+    border-radius: 15px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin-top: 5px;
+}
+.slogan {
+    font-size: 0.3em;
+}
+.navtext:hover {color: blue;}
+.nav {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    word-spacing: 20px;
+}
+#firstsidebar {
+    background-color: rgb(114, 191, 194);
+    color: whitesmoke;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+#firstsidebar p {
+    text-align: justify;
+}
+.main {
+    background-color: rgb(226, 117, 44);
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-left:  20px;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.subtext {
+    font-style: italic;
+    padding: 30px;
+}
+.sub1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+.subsub {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+#secondsidebar {
+    background-color: teal;
+    color: white;
+    padding-top: 20px;
+    float: left;
+    width: 30%
+}
+.footer {
+    background-color: slategrey;
+    float: right;
+    width: 65%;
+}
+.footertext {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-weight: bolder;
+    padding-right: 20px;
+}

@@ -1,0 +1,56 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#topmenu{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    border-radius: 5px;
+    overflow: auto;
+    list-style: none;
+}
+#topmenu>li{
+    float: left;
+    background-color: rgb(60, 137, 143);
+    width: 20%;
+}
+#topmenu>li:hover ul{
+    display: block;
+    background-color: rgb(27, 114, 146);
+    width: 20%;
+}
+#topmenu>li:hover ul li{
+    border-bottom: 1px dotted #fff;
+}
+#topmenu>li:hover{
+    background-color: rgb(27, 114, 146);
+    border-bottom: 1px dotted #fff;
+}
+#topmenu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+#topmenu li a:hover {
+    color: rgb(181, 211, 235);
+}
+#topmenu ul{
+    position: absolute;
+    list-style: none;
+    display: none;/*block*/
+    /*visibility: hidden; visible*/
+    padding:0;
+}
+p{
+    font-size: 70px;
+    color: white;
+    padding-right: 50px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 200px;
+}
+

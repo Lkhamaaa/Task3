@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            var too;
+            var b = NaN;
+            too = parseInt(window.prompt("Бүхэл тоо оруулна уу: "));
+            while(window.isNaN(too)||too==""){
+                too = window.prompt("Бүхэл тоо биш байна. Тоо оруулна уу: ");
+            }
+            document.write("<h1>Lab9_14</h1>")
+            document.write("Таны оруулсан тоо ");
+            if(too%2==0)
+                document.write("тэгш.");
+            else
+                document.write("сондгой.");
+        </script>
+    </head><body></body>
+</html>

@@ -1,0 +1,71 @@
+h1 {
+    text-shadow: 2px 5px 5px deepskyblue;
+}
+.container1{
+    position: relative;
+}
+.container2{
+    position: relative;
+    float: left;
+    display: flex;
+}
+.container3{
+    position: relative;
+    float: left;
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#box1{
+    background-color: deepskyblue;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#box2{
+    background-color: khaki;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+#box3{
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 100px;
+}
+.shadow{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    display: flex;
+}
+#box4{
+    background-color: cornflowerblue;
+    box-shadow: 15px 15px 20px dimgrey;
+}
+#box5{
+    background-color: rgb(16, 36, 73);
+    box-shadow: -15px -15px 30px dimgrey;
+}
+#box6{
+    background-color: rgb(74, 189, 235);
+    box-shadow: 15px 15px 10px dimgrey;
+}
+.grad{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+#linear{
+    background: linear-gradient(45deg, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
+}
+#radial{
+    background: radial-gradient(farthest-corner at 10% 90%, red, yellow, green);
+}

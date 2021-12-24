@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    background-color: grey;
+}
+.out{
+    position: relative;
+    background-color: green;
+    width: 400px;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+}
+/*.in{
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+}*/
+/*.in{
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    top: -10px;
+    left: -10px;
+}*/
+/*.in{
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    right: 10px;
+    bottom: 10px;
+}*/
+/*.in{
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    left: 0px;
+    bottom: 0px;
+}*/
+/*.in{
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    left: -30px;
+    top: -20px;
+}*/
+.in{
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    right: -50px;
+    top: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab9_17</title>
+    <style>
+        .s{
+            background-color: rgb(202, 202, 202);
+            width: 50px;
+        }
+        table {
+            border: black;
+            border:2px ;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<script>
+    var i,a,b;
+    document.write("<table border=\"1\"><tr><td>Number</td><td>Square</td><td>Cube</td></tr>")   ;
+    for(i = 0 ; i <= 5 ; i++)
+    {
+        document.write("<tr>");
+        a = i * i;
+        b = i * i * i;
+        document.write("<td class=\"s\">" + i + "</td><td class=\"s\">" + a + "</td><td class=\"s\">" + b + "</td>");
+        document.write("</tr>");
+    }
+    document.write("</table>");
+</script>
+</html>

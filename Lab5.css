@@ -3,7 +3,7 @@ table {
     width: 100%;
 }
 #header {
-    background-color: black;
+    background-image: url(Back-image.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0.9;
@@ -22,8 +22,8 @@ table {
 .slogan {
     font-family: 'Cinzel', serif;
     font-size: 0.5em;
+    font-weight: bolder;
     margin-bottom: 0px;
-    color: rgb(25, 101, 241);
 }
 .button {
     background-image: url(Button-image.jpg);
@@ -42,11 +42,11 @@ table {
     transform: scale(1.2,1.2);
 }
 
-.about {
+.question {
     color: rgb(6, 6, 87);
     font-size: 40px;
     font-family: 'Abril Fatface', cursive;
-    text-align: center;
+    text-align: right;
     width: 50%;
     padding-right: 40px;
 }
@@ -56,8 +56,14 @@ table {
     font-family: 'Abril Fatface', cursive;  
     opacity: 0.7;
 }
+.lorem {
+    text-align: justify;
+    padding: 30px 15px 10px 15px;
+    font-family: 'Abril Fatface', cursive;  
+    color: darkblue;
+}
 .footer {
-    background-color: rgb(0, 4, 7);
+    background-color: rgb(87, 155, 223);
     margin-bottom: 0px;
 }
 .footertext {
@@ -65,7 +71,7 @@ table {
     text-align: right;
     font-weight: bolder;
     padding-right: 20px;
-    color: white;
+    color: rgb(23, 18, 39);
 }
 img {
     width: 250px;
@@ -73,46 +79,7 @@ img {
     border-radius: 125px;
     margin: 20px 50px 20px 0px;
 }
-
-#topmenu{
-    margin: 0;
-    padding: 0;
-    border-radius: 5px;
-    overflow: auto;
-    list-style: none;
-}
-
-#topmenu>li:hover ul{
-    display: block;
-    background-color: rgb(5, 11, 14);
-    width: 100%;
-}
-#topmenu>li:hover ul li{
-    border-bottom: 1px dotted #fff;
-}
-#topmenu>li:hover{
-    background-color: rgb(5, 11, 14);
-    border-bottom: 1px dotted #fff;
-}
-#topmenu li a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 15px;
-}
-#topmenu ul{
-    position: absolute;
-    list-style: none;
-    display: none;/*block*/
-    /*visibility: hidden; visible*/
-    padding:0;
-}
-.mat{
-    font-size: 45px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.footertext a{
-    text-decoration: none;
-    color: white;
+div {
+    display: flex;
+    justify-content: center;
 }

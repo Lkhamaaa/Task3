@@ -1,0 +1,19 @@
+.multicolumns{
+    column-count: 4;
+    column-gap: 30px;
+    padding-top: 50px;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+}
+@media handheld and (max-width: 480px;), screen and (max-device-width: 480px;), screen and (max-width: 480px;) {
+    div{
+        column-count: 1;
+    }
+}
+@media handheld and (min-width: 480px;), screen and (min-device-width: 480px;), screen and (min-width: 480px;) {
+    div{
+        column-count: 1;
+    }
+}

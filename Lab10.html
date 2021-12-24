@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab10</title>
+    <script>
+        var wage = new Array();
+        a1 = 0;
+        a2= 0;
+        a3 = 0;
+        a4 = 0;
+        a5 = 0;
+        a6 = 0;
+        a7 = 0;
+        a8 = 0;
+        a9 = 0;
+        tsalin = parseInt(window.prompt("Борлуулалтын хэмжээг оруулна уу. Сөрөг тоо оруулвал зогсоно."));
+        i = 0;
+        while(tsalin >= 0){
+            wage[i] = tsalin;
+            i++;
+            tsalin = parseInt(window.prompt("Борлуулалтын хэмжээг оруулна уу. Сөрөг тоо оруулвал зогсоно.")); 
+        }
+        for(i = 0; i < wage.length; i++){
+            wage[i] = Math.floor(400 + 0.09 * wage[i]);
+            if(wage[i]>=200 && wage[i]<=299)
+                a1++;
+            else if(wage[i]>=300 && wage[i]<=399)
+                a2++;
+            else if(wage[i]>=400 && wage[i]<=499)
+                a3++;
+            else if(wage[i]>=500 && wage[i]<=599)
+                a4++;
+            else if(wage[i]>=600 && wage[i]<=699)
+                a5++;
+            else if(wage[i]>=700 && wage[i]<=799)
+                a6++;
+            else if(wage[i]>=800 && wage[i]<=899)
+                a7++;
+            else if(wage[i]>=900 && wage[i]<=999)
+                a8++;
+            else if(wage[i]>=1000)
+                a9++;
+        }
+        document.writeln("$200-299 цалинг " + a1 + " хүн авсан байна.<br>");
+        document.writeln("$300-399 цалинг " + a2 + " хүн авсан байна.<br>");
+        document.writeln("$400-499 цалинг " + a3 + " хүн авсан байна.<br>");
+        document.writeln("$500-599 цалинг " + a4 + " хүн авсан байна.<br>");
+        document.writeln("$600-699 цалинг " + a5 + " хүн авсан байна.<br>");
+        document.writeln("$700-799 цалинг " + a6 + " хүн авсан байна.<br>");
+        document.writeln("$800-899 цалинг " + a7 + " хүн авсан байна.<br>");
+        document.writeln("$900-999 цалинг " + a8 + " хүн авсан байна.<br>");
+        document.writeln("$1000-аас дээш цалинг " + a9 + " хүн авсан байна.");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

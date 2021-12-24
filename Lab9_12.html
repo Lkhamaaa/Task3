@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            var radius, radiusint;
+            radius = window.prompt("Тойргийн радиусыг оруулна уу: ");
+            radiusint = parseInt(radius);
+            document.write("<h1>Lab9_12</h1>")
+            document.write("Тойргийн диаметр " + 2*radiusint);
+            var length = 2*Math.PI*radiusint;
+            var fixelength = length.toFixed(2);
+            document.write("<br>Тойргийн урт " + fixelength);
+            var area = Math.PI*radiusint*radiusint;
+            var fixedarea = area.toFixed(2);
+            document.writeln("<br>Тойргийн талбай " + fixedarea);
+            </script>
+    </head><body></body>
+</html>
