@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Shizuru&family=Ubuntu:wght@500&display=swap');
+body{
+    background-color: rgb(195, 233, 228);
+}
+table{
+    border-width: 1;
+    width: 100%;
+}
+.name{
+    color: rgb(2, 3, 27);
+    font-size: 40px;
+    padding-left: 100px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Shizuru', cursive;
+    font-weight: 200;
+}
+.name span{
+    font-size: 15px;
+}
+
+#topmenu{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    border-radius: 5px;
+    overflow: auto;
+    list-style: none;
+}
+#topmenu>li{
+    float: left;
+    background-color: rgb(60, 137, 143);
+}
+#topmenu>li:hover ul{
+    display: block;
+    background-color: rgb(27, 114, 146);
+    width: 20%;
+}
+#topmenu>li:hover ul li{
+    border-bottom: 1px dotted #fff;
+}
+#topmenu>li:hover{
+    background-color: rgb(27, 114, 146);
+    border-bottom: 1px dotted #fff;
+}
+#topmenu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+#topmenu li a:hover {
+    color: rgb(181, 211, 235);
+}
+#topmenu ul{
+    position: absolute;
+    list-style: none;
+    display: none;/*block*/
+    /*visibility: hidden; visible*/
+    padding:0;
+}
